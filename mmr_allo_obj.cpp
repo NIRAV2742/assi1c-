@@ -12,7 +12,7 @@ public:
 };
 
 int main() {
-    // dynamically allocate object
+   
     Student *s = new Student;
 
     s->name = "Nirav";
@@ -20,6 +20,7 @@ int main() {
 
     s->display();
 
-    delete s; // deallocate object
+    delete s; 
     return 0;
 }
+
